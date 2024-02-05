@@ -1,0 +1,26 @@
+/* univercel slector */
+*{
+    background-color: aqua;
+}
+
+/* element slector */
+h2{
+    font-size: 70px;
+}
+/* class slector */
+.color{
+    color:green;
+    font-size: 40px;
+    font-weight: bold;
+}
+/* id slector */
+#my_text_style{
+    color: pink;
+    font-size: 40px;
+}
+
+/* group slector */
+ol,ul{
+    color:blue;
+    font-size:50px;
+}
