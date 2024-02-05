@@ -1,17 +1,20 @@
 /* univercel slector */
 *{
-    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* element slector */
 h2{
     font-size: 70px;
+    border: 5px solid green;
+    border-radius: 40px 1px 40px 1px;
 }
 /* class slector */
 .color{
     color:green;
     font-size: 40px;
     font-weight: bold;
+    font-style: italic;
 }
 /* id slector */
 #my_text_style{
@@ -23,4 +26,22 @@ h2{
 ol,ul{
     color:blue;
     font-size:50px;
+}
+
+/* background property */
+body{
+    background-image: url("../pexels-audrius-strikaitis-13357113.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+p{
+    /* display: block; */
+    /* display:none; */
+    display: inline;
+    color: red;
+    cursor:pointer;
+    float: right;
 }
