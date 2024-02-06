@@ -1,4 +1,13 @@
 /* univercel slector */
+
+:root{ 
+    --colorPrimary:#22ff;
+    --fontPrimary:20px;
+}
+
+
+
+
 *{
     font-family: 'Courier New', Courier, monospace;
 }
@@ -41,7 +50,60 @@ p{
     /* display: block; */
     /* display:none; */
     display: inline;
-    color: red;
+    color: var(--colorPrimary);
     cursor:pointer;
     float: right;
+    line-height: 120%;
+}
+
+.button{
+    border: 1px solid rgb(209, 70, 70);
+    width:90px;
+    height:40px;
+    background-color: rgb(161, 96, 223);
+    border-radius:5px;
+    color:rgb(240, 135, 135);
+    font-size:20px;
+    font-weight:bold;
+    margin:10px 5px 10px 5px;
+    padding:1px 2px 1px 2px;
+    
+
+}
+.button:hover{
+    background-color: black;
+}
+
+
+.img{
+    margin-top:100px;
+    width: 400px;
+    height: 400px;
+    filter:brightness(20%);
+    /* filter:blur(20%) */
+}
+
+div p{
+    height: 400px;
+    width:600px;
+    /* overflow:hidden; */
+    /* overflow:auto; */
+    overflow-y:scroll;
+    position:relative;
+    
+}
+.test{
+    margin-top:500px;
+    color:red;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 10px 20px red;
+}
+.test1{
+    color:aqua;
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+
 }
